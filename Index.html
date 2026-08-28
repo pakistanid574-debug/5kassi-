@@ -3,13 +3,48 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>5 kassi</title>
+  
+  <!-- 5. Meta Title -->
+  <title>5 kassi - Latest Local News, Events & Community Updates</title>
+  
+  <!-- 6. Meta Description -->
+  <meta name="description" content="Discover the latest news, weather updates, community events, and local information about 5 kassi, Tehsil Kabirwala. Stay updated with 5 kassi." />
+  
+  <!-- 1. Keywords -->
+  <meta name="keywords" content="5 kassi, 5 kassi Tehsil Kabirwala, 5 kassi updates, 5 kassi news, 5 kassi weather, wedding hall 5 kassi" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Canonical URL (7. URL) -->
+  <link rel="canonical" href="https://5kassi.com/" />
+
+  <!-- Open Graph for Social Sharing -->
+  <meta property="og:title" content="5 kassi - Latest Local Updates & News" />
+  <meta property="og:description" content="Get official updates, events, and news from 5 kassi, Tehsil Kabirwala." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://5kassi.com/" />
+  <meta property="og:image" content="https://5kassi.com/images/5-kassi-banner.jpg" />
+
+  <!-- Schema Markup (Structured Data for Local SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Place",
+    "name": "5 kassi",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kabirwala",
+      "addressRegion": "Punjab",
+      "addressCountry": "PK"
+    },
+    "description": "Local community updates and news for 5 kassi, Tehsil Kabirwala."
+  }
+  </script>
 
   <style>
     :root{
       --accent:#7f7cff;
       --muted:#cfcfff;
-      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+      font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     }
 
     body{
@@ -24,7 +59,7 @@
         linear-gradient(180deg,#050014,#02010a 100%);
     }
 
-    /* Stars */
+    /* Background Stars */
     body::before{
       content:"";
       position:fixed;
@@ -47,6 +82,9 @@
       justify-content:space-between;
       align-items:center;
       border-bottom:1px solid rgba(255,255,255,0.15);
+      position:sticky;
+      top:0;
+      z-index:100;
     }
 
     .brand{display:flex;gap:12px;align-items:center}
@@ -59,7 +97,7 @@
       font-weight:600;
       transition:opacity .2s;
     }
-    nav a:hover{opacity:.7}
+    nav a:hover{opacity:.7;text-decoration:underline}
 
     main{
       max-width:900px;
@@ -70,15 +108,23 @@
 
     .card{
       background:rgba(255,255,255,0.12);
-      padding:18px;
+      padding:24px;
       border-radius:18px;
       backdrop-filter:blur(10px);
       box-shadow:0 10px 30px rgba(0,0,0,0.4);
-      margin-bottom:20px;
+      margin-bottom:24px;
     }
 
     .muted{color:var(--muted)}
-    .post-date{font-size:13px;color:#ddd}
+    .post-date{font-size:13px;color:#ddd;margin-bottom:8px;}
+
+    .post-img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin: 12px 0;
+    }
 
     footer{
       margin-top:30px;
@@ -86,14 +132,14 @@
       text-align:center;
     }
 
-    a.link{color:#fff;font-weight:600}
+    a.link{color:#fff;font-weight:600;text-decoration:underline}
 
     @keyframes fadeIn{
       from{opacity:0;transform:translateY(10px)}
       to{opacity:1;transform:translateY(0)}
     }
 
-    /* Click galaxy pulse */
+    /* Click pulse effect */
     .click-circle{
       position:fixed;
       width:40px;
@@ -117,13 +163,15 @@
 
 <header>
   <div class="brand">
-    <svg width="36" height="36"><rect width="36" height="36" rx="8" fill="#fff"/></svg>
+    <svg width="36" height="36" aria-label="5 kassi Logo"><rect width="36" height="36" rx="8" fill="#fff"/></svg>
     <div>
+      <!-- 3. Headings: H1 for Main Page Title -->
       <h1>5 kassi</h1>
       <div class="muted">Galaxy Edition</div>
     </div>
   </div>
-  <nav>
+  <!-- 10. Internal Links Navigation -->
+  <nav aria-label="Main Navigation">
     <a href="#home">Home</a>
     <a href="#posts">Posts</a>
     <a href="#contact">Contact</a>
@@ -131,57 +179,91 @@
 </header>
 
 <main>
+  <!-- Home Section -->
   <section id="home" class="card">
+    <!-- 3. Headings: H2 for Main Sections -->
     <h2>Welcome to 5 kassi 🌌</h2>
-    <p class="muted">Galaxy inspired design with smooth animations and fast performance.</p>
+    <!-- 4. Content Optimization -->
+    <p class="muted">
+      Welcome to the official digital hub of <strong>5 kassi</strong>. Stay connected with local happenings, announcements, community updates, and weather conditions in 5 kassi, Tehsil Kabirwala.
+    </p>
   </section>
 
+  <!-- Posts Section -->
   <section id="posts" class="card">
-    <h3>Latest Posts</h3>
+    <h2>Latest Updates & News in 5 kassi</h2>
 
     <article>
-      <h4>Today Fog 🌫️</h4>
+      <!-- 3. Headings: H3 for Articles -->
+      <h3>Today Fog in 5 kassi 🌫️</h3>
       <div class="post-date">Date: 8 Jan, 2026</div>
-      <p>Today heavy fog covered 5 kassi early in the morning, creating a beautiful and mysterious galaxy-like atmosphere.</p>
+      
+      <!-- 8. Images & 9. Image Alt Text -->
+      <img src="https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?auto=format&fit=crop&w=800&q=80" 
+           alt="Heavy morning fog covering 5 kassi Tehsil Kabirwala" 
+           class="post-img" 
+           loading="lazy" />
+
+      <p>
+        Today, heavy winter fog covered <strong>5 kassi</strong> early in the morning, creating a beautiful and mysterious atmosphere across the local surroundings. Drivers are advised to drive carefully around the area.
+      </p>
     </article>
 
-    <hr style="opacity:.2;margin:16px 0">
+    <hr style="opacity:.2;margin:24px 0">
 
     <article>
-      <h4>Wedding Hall Opening</h4>
+      <h3>New Wedding Hall Opening in 5 kassi</h3>
       <div class="post-date">Date: November 2, 2025</div>
-      <p>We are pleased to announce the opening of the new wedding hall in 5 kassi.</p>
+
+      <!-- 8. Images & 9. Image Alt Text -->
+      <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=800&q=80" 
+           alt="New modern wedding hall opening event in 5 kassi" 
+           class="post-img" 
+           loading="lazy" />
+
+      <p>
+        We are pleased to announce the official opening of the new modern wedding hall in <strong>5 kassi</strong>. This venue brings top-class event hosting facilities to the residents of Tehsil Kabirwala.
+      </p>
     </article>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="card">
-    <h3>Contact</h3>
-    <p class="muted">For inquiries:</p>
-    <a href="mailto:guestdeleteprocess@gmail.com" class="link">guestdeleteprocess@gmail.com</a>
+    <h2>Contact & Inquiries</h2>
+    <p class="muted">Have questions or local news updates to share about 5 kassi? Reach out to us directly:</p>
+    <p>
+      Email: <a href="mailto:guestdeleteprocess@gmail.com" class="link">guestdeleteprocess@gmail.com</a>
+    </p>
   </section>
 </main>
 
 <footer>
   <div class="card" style="max-width:900px;margin:auto">
-    <strong>Address</strong><br>
-    <a class="link" target="_blank"
-      href="https://www.google.com/maps/search/?api=1&query=5,+kassi,+Tehsil+Kabirwala">
-      5, kassi, Tehsil Kabirwala
+    <strong>5 kassi Location & Address</strong><br>
+    
+    <!-- 11. External Links with rel attributes for SEO -->
+    <a class="link" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       href="https://www.google.com/maps/search/?api=1&query=5+kassi+Tehsil+Kabirwala">
+      5, kassi, Tehsil Kabirwala, Punjab, Pakistan
     </a>
-    <div class="muted">© 2025 5 kassi</div>
+    
+    <div class="muted" style="margin-top:10px;">© 2026 5 kassi. All rights reserved.</div>
   </div>
 </footer>
 
 <script>
-  document.addEventListener('click', e=>{
-    const c=document.createElement('div');
-    c.className='click-circle';
-    c.style.left=(e.clientX-20)+'px';
-    c.style.top=(e.clientY-20)+'px';
+  document.addEventListener('click', e => {
+    const c = document.createElement('div');
+    c.className = 'click-circle';
+    c.style.left = (e.clientX - 20) + 'px';
+    c.style.top = (e.clientY - 20) + 'px';
     document.body.appendChild(c);
-    setTimeout(()=>c.remove(),700);
+    setTimeout(() => c.remove(), 700);
   });
 </script>
 
 </body>
-</html>
+  </html>
+  
